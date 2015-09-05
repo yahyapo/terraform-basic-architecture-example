@@ -1,0 +1,4 @@
+aws_provider_override.tf
+terraform.tfvars
+.idea/
+terraform.pem
