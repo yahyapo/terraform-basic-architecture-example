@@ -8,9 +8,8 @@ After you run `terraform apply` on this configuration, it will
 automatically output the DNS address of the ELB. After your instance
 registers, this should respond with the default nginx web page.
 
-To run, configure your AWS provider as described in 
-
-https://www.terraform.io/docs/providers/aws/index.html
+Create an "aws_provider_override.tf" file and enter your real secret key and access key.
+Create a terraform.tfvars file and enter the values for the variables aws_region, availability_zone, key_path and key_name.
 
 Run with a command like this:
 
